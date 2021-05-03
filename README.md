@@ -1,7 +1,7 @@
 # ** Pewlett-Hackard-Analysis
 
 ## *Project Overview*
-Pewlett Hackared is so considering offering retirement packages for employees who meet certain criteria. Additionally, the company started to think about which positions need to fill shortly. The number of retirement upcoming will leave thousands of open positions, I need to help Bobby to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, I will write a report that summarizes the analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age. To help Bobby with this analysis, I will use SQL to import and analyze the Data.    
+Pewlett Hackared is considering offering retirement packages for employees who meet certain criteria. Additionally, the company started to think about which positions need to fill shortly. The number of upcoming retirements will leave thousands of open positions. I need to help Bobby to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, I will write a report that summarizes the analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age. To help Bobby with this analysis, I will use SQL to import and analyze the Data.    
                   
 ## *Analysis & Results*
 ### Analysis
