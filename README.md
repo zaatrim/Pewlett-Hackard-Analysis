@@ -7,7 +7,7 @@ Pewlett Hackared is so considering offering retirement packages for employees wh
 ### Analysis
 1st step of the analysis, I need to understand the current Data available for us in the CSV files (departments, dept_emp,  For this analysis, dept_manager, employees, salaries, titles) in order to Build the ERD (see below ERD. ERD  helps us in analyzing the relationship between the different Tables).  
 
-    ![EmployeeDB](https://user-images.githubusercontent.com/80013773/116833528-87eadb00-ab6e-11eb-841f-ffa6987eb2d9.png)
+  ![EmployeeDB](https://user-images.githubusercontent.com/80013773/116833528-87eadb00-ab6e-11eb-841f-ffa6987eb2d9.png)
 
 
 
@@ -73,7 +73,7 @@ Pewlett Hackared is so considering offering retirement packages for employees wh
             SELECT *
             FROM unique_titles
          
-      ![UniqueTitles](https://user-images.githubusercontent.com/80013773/116833594-02b3f600-ab6f-11eb-85f4-1203c3abe5c5.png)
+  ![UniqueTitles](https://user-images.githubusercontent.com/80013773/116833594-02b3f600-ab6f-11eb-85f4-1203c3abe5c5.png)
 
 
   1.5 The last step in this part of the analysis to create a count table that retrieves the number of employees by their most recent job title who are about to retire, I will use the "Unique_titles" table to group the count of # emoplyess per Title. and then I will save it as new Table "retiring_titles" and export it to CSV File  
@@ -128,7 +128,7 @@ Pewlett Hackared is so considering offering retirement packages for employees wh
             ORDER BY e.emp_no,de.to_date DESC;
 
  
-        ![mentorship](https://user-images.githubusercontent.com/80013773/116833776-ecf30080-ab6f-11eb-8e0b-3bfa1fa22cf3.png)
+     ![mentorship](https://user-images.githubusercontent.com/80013773/116833776-ecf30080-ab6f-11eb-8e0b-3bfa1fa22cf3.png)
  
          
 ### Results
